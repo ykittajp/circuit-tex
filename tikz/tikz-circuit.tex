@@ -1,6 +1,7 @@
-\documentclass{jsarticle}
+\documentclass{article}
 \usepackage{tikz,circuitikz}
 \begin{document}
+\pagestyle{empty}
 \begin{circuitikz}
  \draw (0, 0) node[ground] {} to[battery, *-, l^=$V$] (0, 2)
   to[R, l^=$R$, v=$v$] (4,2)
